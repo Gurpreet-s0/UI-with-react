@@ -3,7 +3,7 @@ import React from "react";
 const Card = (props) => {
   console.log(props)
   return (
-    <div className="w-[280px] h-[80vh] shrink-0 relative overflow-hidden">
+    <div className="w-70 h-[80vh] shrink-0 relative overflow-hidden">
       <img
         className=" object-cover rounded-4xl h-[60vh] w-65 "
         src= {props.img}
